@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      a {
+        text-decoration: none;
+      }
+
+      .TextWhite {
+        color: whitesmoke;
+      }
+      .btnM {
+        margin-top: 10px;
+        padding: 10px;
+        border: none;
+        font-size: 20px;
+        border-radius: 10px;
+      }
+      .bgAzul {
+        background-color: #4caf50;
+      }
+      .container {
+        height: 100vh;
+        border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+      }
+      .menu {
+        border: 1px solid blue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      section {
+        margin-top: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header><h1>Adiministrador</h1></header>
+      <main>
+        <section class="menu">
+          <button class="bgAzul btnM btnTwhite">
+            <p>
+              <a
+                class="TextWhite fonteSize1"
+                href="https://www.hostinger.com.br/cpanel-login"
+                target="_blank"
+                rel="noopener noreferrer"
+                >hostinger</a
+              >
+            </p>
+          </button>
+
+          <button class="bgAzul btnM btnTwhite">
+            <p>
+              <a
+                class="TextWhite fonteSize1"
+                href="https://github.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Github</a
+              >
+            </p>
+          </button>
+          <button class="bgAzul btnM btnTwhite">
+            <p>
+              <a
+                class="TextWhite fonteSize1"
+                href="https://codesandbox.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >codesandbox</a
+              >
+            </p>
+          </button>
+        </section>
+        <section class="menu">
+          <h2>google</h2>
+          <button class="bgAzul btnM btnTwhite">
+            <p>
+              <a
+                class="TextWhite fonteSize1"
+                href="https://search.google.com/search-console?utm_source=about-page&resource_id=https://www.belosorriso.net.br/"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                >SEARCH CONSOLE</a
+              >
+            </p>
+          </button>
+          <button class="bgAzul btnM btnTwhite">
+            <p>
+              <a
+                class="TextWhite fonteSize1"
+                href="https://optimize.google.com/optimize/home/#/accounts"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                >OPTIMIZE</a
+              >
+            </p>
+          </button>
+        </section>
+        <section class="menu">
+          <h2>ADS</h2>
+          <button class="bgAzul btnM btnTwhite">
+            <p>
+              <a
+                class="TextWhite fonteSize1"
+                href="https://search.google.com/search-console?utm_source=about-page&resource_id=https://www.belosorriso.net.br/"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                >SEARCH CONSOLE</a
+              >
+            </p>
+          </button>
+          <button class="bgAzul btnM btnTwhite">
+            <p>
+              <a
+                class="TextWhite fonteSize1"
+                href="https://optimize.google.com/optimize/home/#/accounts"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                >OPTIMIZE</a
+              >
+            </p>
+          </button>
+        </section>
+      </main>
+      <footer></footer>
+    </div>
+  </body>
+</html>
